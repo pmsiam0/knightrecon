@@ -37,5 +37,4 @@ chmod +x automate.sh
 # Disclaimer
 Usage of this program for attacking targets without consent is illegal. It is the user's responsibility to obey all applicable laws. The developer assumes no liability and is not responsible for any misuse or damage caused by this program. Please use responsibly.
 
-The material contained in this repository is licensed under MIT.
 
