@@ -16,6 +16,7 @@ This Bash script automates the process of subdomain enumeration, resolution, per
 1. Ubuntu/Debian-based OS (or modify it for other distros)
 2. Go environment (installed automatically if missing)
 3. Python3 and pip3
+4. Complete your subfinder and amass configuration.
 
 # Why Use This Script?
 ✅ Saves time – Installs all tools in one go.
@@ -32,4 +33,9 @@ cd knightrecon
 chmod +x automate.sh
 ./automate.sh
 ```
+
+# Disclaimer
+Usage of this program for attacking targets without consent is illegal. It is the user's responsibility to obey all applicable laws. The developer assumes no liability and is not responsible for any misuse or damage caused by this program. Please use responsibly.
+
+The material contained in this repository is licensed under MIT.
 
