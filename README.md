@@ -5,8 +5,11 @@ This Bash script automates the process of subdomain enumeration, resolution, per
 
 # Features
 ✅ Passive Subdomain Enumeration – Uses Amass, Subfinder, Assetfinder, Findomain, GAU, Waybackurls, and GitHub-Subdomains.
+
 ✅ Subdomain Resolution – Resolves valid subdomains using PureDNS with a public resolvers list.
+
 ✅ Subdomain Permutation – Generates subdomain mutations with Gotator for deeper enumeration.
+
 ✅ Automated Vulnerability Scanning – Uses Nuclei to detect common security issues. Even though you can add more.
 
 # Requirements
@@ -16,7 +19,9 @@ This Bash script automates the process of subdomain enumeration, resolution, per
 
 # Why Use This Script?
 ✅ Saves time – Installs all tools in one go.
+
 ✅ Ensures dependencies are installed – No more missing tools.
+
 ✅ Keeps tools updated – Installs the latest versions.
 
 # Installation & Usage Script for KnightRecon
