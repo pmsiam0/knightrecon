@@ -25,7 +25,7 @@ cat amass_output.txt subfinder_output.txt assetfinder_output.txt findomain_outpu
 rm amass_output.txt subfinder_output.txt assetfinder_output.txt findomain_output.txt gau_output.txt wayback_output.txt github_output.txt
 
 dnsvalidator -tL https://public-dns.info/nameservers.txt -threads 100 -o resolvers.txt
-wget -qO resolvers.txt https://raw.githubusercontent.com/trickest/resolvers/main/resolvers.txt
+wget -qO - https://raw.githubusercontent.com/trickest/resolvers/main/resolvers.txt >> resolvers.txt
 
 puredns resolve subdomains.txt -r resolvers.txt -w bruteforce_output.txt
 
