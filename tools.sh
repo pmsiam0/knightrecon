@@ -20,6 +20,7 @@ go install -v github.com/owasp-amass/amass/v3/...@master
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 go install github.com/tomnomnom/assetfinder@latest
+go install github.com/tomnomnom/unfurl@latest
 
 wget -N -c https://github.com/Findomain/Findomain/releases/download/9.0.0/findomain-linux.zip
 unzip findomain-linux.zip
