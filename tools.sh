@@ -54,4 +54,7 @@ wget https://gist.githubusercontent.com/six2dez/ffc2b14d283e8f8eff6ac83e20a3c4b4
 
 go install -v github.com/Josue87/gotator@latest
 
+echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.bashrc
+source ~/.bashrc
+
 echo "All tools installed successfully"
